@@ -19,6 +19,7 @@ setup(
     version='0.1.8',
     author="Steven Byrnes",
     author_email="steven.byrnes@gmail.com",
+    install_requires=["numpy", "scipy", "matplotlib", "colorpy"],
     description=descrip,
     license="MIT",
     keywords="optics, fresnel, reflection, absorption, photovoltaics, ellipsometry, transfer matrix method",
